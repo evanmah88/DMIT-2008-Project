@@ -1,5 +1,5 @@
 {
-  "name": "course-seller",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,13 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "firebase-admin": "^11.11.0",
+    "next": "14.0.1",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "autoprefixer": "^10",
+    "autoprefixer": "^10.0.1",
     "postcss": "^8",
-    "tailwindcss": "^3"
+    "tailwindcss": "^3.3.0"
   }
 }
