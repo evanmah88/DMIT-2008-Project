@@ -1,7 +1,8 @@
-
 export default function Home() {
   return (
     <main>
+          
+
       <h1>Home</h1>
 <div className="container mx-auto">
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, sem vitae interdum consectetur, sem nisi bibendum nisi, in tristique neque urna id tellus. Pellentesque at facilisis arcu. Nam efficitur enim quam, rutrum dignissim erat venenatis a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi lobortis est non tellus dignissim sollicitudin. Ut non nisl leo. Sed sed enim tortor. Suspendisse molestie sem eu pellentesque gravida. Quisque scelerisque, nunc eu lacinia porttitor, velit sem finibus arcu, at scelerisque enim metus vitae justo.
