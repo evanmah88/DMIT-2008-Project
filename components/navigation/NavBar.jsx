@@ -9,7 +9,7 @@ import Link from "next/link"
                             <figcaption className="text-sm">Home</figcaption>
                           </figure>
                     </Link></li>
-                <li><Link className="text-blue-600 font-medium" href="/manyItems">Many Items</Link></li>
+                <li><Link className="text-blue-600 font-medium" href="/ProductsPage">Products</Link></li>
             </ul>
         </nav>
     )
