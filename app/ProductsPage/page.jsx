@@ -28,7 +28,6 @@ async function ProductsPage ({children}) {
     </div>
   );
   
-  return null
   }
   
 

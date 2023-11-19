@@ -4,11 +4,7 @@ import React from "react";
 const ProductCard = ({ brand, price, model, sensor, buttons }) => {
   return (
     <div className="product-card bg-white shadow-md rounded-md p-4 m-2">
-        <div className="flex">
-            <div>
-                <Link className="text-blue-600 font-medium" href="/single-item"></Link>
-            </div>
-        </div>
+
       <div>
         <h3 className="text-lg text-black font-semibold">
           {brand} {model}
