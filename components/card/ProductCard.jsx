@@ -8,7 +8,7 @@ const ProductCard = ({ id, brand, price, model, sensor, buttons }) => {
         <h3 className="text-lg text-black font-semibold">
           {brand} {model}
         </h3>
-        <p className="text-gray-600">Price: ${price}</p>
+        <p className="text-gray-600">Price: {price}</p>
         <p className="text-gray-600">Sensor: {sensor}</p>
         <p className="text-gray-600">Amounts of buttons: {buttons}</p>
         <p className="text-gray-600">id: {id}</p>

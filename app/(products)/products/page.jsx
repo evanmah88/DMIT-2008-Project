@@ -16,16 +16,15 @@ async function ProductsPage({ children }) {
     <ProductCard
       key={product.id} 
       id={product.id}   
-      brand={product.brand}
-      model={product.model}
-      price={product.price}
-      sensor={product.sensor}
-      buttons={product.buttons}
+      brand={product.Brand}
+      model={product.Model}
+      price={product.Price}
+      sensor={product.Sensor}
+      Buttons={product.Buttons}
        connectivity={product.connectivity}
        color={product.color}
        illumination={product.illumination}
        type={product.type}
-       ergonomic={product.ergonomic}
 
     />
   ));
