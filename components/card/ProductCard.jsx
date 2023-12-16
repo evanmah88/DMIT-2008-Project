@@ -1,9 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
+import { BuyNow } from '../BuyNowForm';
 
 const ProductCard = ({ id, brand, price, model, sensor, buttons }) => {
   return (
-    <div className="product-card bg-white shadow-md rounded-md p-4 m-2">
+    <div className="product-card bg-purple-200 shadow-md rounded-md p-4 m-2">
       <div>
         <h3 className="text-lg text-black font-semibold">
           {brand} {model}
@@ -18,6 +19,7 @@ const ProductCard = ({ id, brand, price, model, sensor, buttons }) => {
             View Details
           </button>
         </Link>
+        <BuyNow></BuyNow>
       </div>
     </div>
   );

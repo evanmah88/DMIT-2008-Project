@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { CheckoutForm } from "../CheckoutForm"
 
  function NavBar ( {children}){
     return (
@@ -10,6 +11,8 @@ import Link from "next/link"
                           </figure>
                     </Link></li>
                 <li><Link className="text-blue-600 font-medium" href="/products">Products</Link></li>
+                <li>        <CheckoutForm></CheckoutForm>
+</li>
             </ul>
         </nav>
     )
