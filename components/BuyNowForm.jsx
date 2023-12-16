@@ -1,3 +1,4 @@
+/*componenents/BuyNowForm.*/
 function BuyNow({priceId }) {
     return (
     <form
@@ -9,7 +10,7 @@ function BuyNow({priceId }) {
     name="id"
     value="price_1ONotqJQC9ctxOm1z7VM9WhD"
     />
-    {/* ADD THE PRICE ID TO THE HIDDEN FIELD */}
+    
     <input
     type="hidden"
     name="price"
